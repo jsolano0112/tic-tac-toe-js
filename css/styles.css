@@ -34,10 +34,12 @@
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
     max-width: 300px;
+    gap: 5px;
 }
 
 .tile {
     border: 1px solid #3F2305;
+    border-radius: 12px;
     min-width: 100px;
     min-height: 100px;
     display: flex;
@@ -72,4 +74,9 @@
     font-size: 20px;
     margin-left: 1em;
     cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #DFD7BF;
+    color:#3F2305;
 }
